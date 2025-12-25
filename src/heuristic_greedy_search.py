@@ -82,12 +82,12 @@ def find_dominating_set_greedy(graph):
 
 # --- 3. MAIN EXECUTION ---
 
-graphs_folder = "generated_graphs"
-file_name = "graph_n20_p50,0.gml"  # <--- VERIFICA O NOME DO FICHEIRO AQUI
-graph_path = os.path.join(graphs_folder, file_name)
+graphs_folder = "data/generated_graphs"
+file_to_inspect = "graph_n25_p75,0.gml"
+graph_path = os.path.join(graphs_folder, file_to_inspect)
 
 if os.path.exists(graph_path):
-    print(f"\n=== LOADING GRAPH: {file_name} ===")
+    print(f"\n=== LOADING GRAPH: {file_to_inspect} ===")
 
     # Load Graph
     G = nx.read_gml(graph_path)

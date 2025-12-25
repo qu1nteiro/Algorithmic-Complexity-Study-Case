@@ -1,0 +1,174 @@
+graph [
+  node [
+    id 0
+    label "0"
+    pos 479
+    pos 496
+    weight 43
+  ]
+  node [
+    id 1
+    label "1"
+    pos 396
+    pos 28
+    weight 3
+  ]
+  node [
+    id 2
+    label "2"
+    pos 365
+    pos 191
+    weight 43
+  ]
+  node [
+    id 3
+    label "3"
+    pos 304
+    pos 54
+    weight 33
+  ]
+  node [
+    id 4
+    label "4"
+    pos 33
+    pos 488
+    weight 93
+  ]
+  node [
+    id 5
+    label "5"
+    pos 241
+    pos 476
+    weight 48
+  ]
+  node [
+    id 6
+    label "6"
+    pos 53
+    pos 248
+    weight 92
+  ]
+  node [
+    id 7
+    label "7"
+    pos 383
+    pos 371
+    weight 15
+  ]
+  node [
+    id 8
+    label "8"
+    pos 156
+    pos 102
+    weight 72
+  ]
+  node [
+    id 9
+    label "9"
+    pos 59
+    pos 495
+    weight 97
+  ]
+  node [
+    id 10
+    label "10"
+    pos 103
+    pos 91
+    weight 15
+  ]
+  node [
+    id 11
+    label "11"
+    pos 150
+    pos 240
+    weight 54
+  ]
+  node [
+    id 12
+    label "12"
+    pos 28
+    pos 2
+    weight 100
+  ]
+  node [
+    id 13
+    label "13"
+    pos 144
+    pos 285
+    weight 25
+  ]
+  node [
+    id 14
+    label "14"
+    pos 51
+    pos 227
+    weight 68
+  ]
+  node [
+    id 15
+    label "15"
+    pos 154
+    pos 464
+    weight 66
+  ]
+  edge [
+    source 0
+    target 10
+  ]
+  edge [
+    source 0
+    target 14
+  ]
+  edge [
+    source 0
+    target 11
+  ]
+  edge [
+    source 0
+    target 9
+  ]
+  edge [
+    source 1
+    target 12
+  ]
+  edge [
+    source 3
+    target 5
+  ]
+  edge [
+    source 4
+    target 5
+  ]
+  edge [
+    source 4
+    target 6
+  ]
+  edge [
+    source 5
+    target 8
+  ]
+  edge [
+    source 5
+    target 11
+  ]
+  edge [
+    source 7
+    target 15
+  ]
+  edge [
+    source 8
+    target 13
+  ]
+  edge [
+    source 11
+    target 14
+  ]
+  edge [
+    source 12
+    target 15
+  ]
+  edge [
+    source 14
+    target 15
+  ]
+]

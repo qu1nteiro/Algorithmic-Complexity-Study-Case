@@ -9,7 +9,7 @@ student_number = 113816
 random.seed(student_number)
 
 n_min = 4
-n_max = 25
+n_max = 30
 
 densities = [0.125, 0.25, 0.50, 0.75]
 
@@ -21,10 +21,15 @@ Dist_min = 10
 weight_min = 1
 weight_max = 100
 
-output_folder = "generated_graphs"
+# OUTPUT DIRECTORY
+base_data_folder = "data"
+output_folder = os.path.join(base_data_folder, "generated_graphs")
+
+os.makedirs(base_data_folder, exist_ok=True)
+
+# Dir generated_graphs
 if os.path.exists(output_folder):
     shutil.rmtree(output_folder)
-
 os.makedirs(output_folder)
 
 print(f"*** Generating Graphs (Seed: {student_number}) ***")

@@ -48,10 +48,10 @@ def exhaustive_search(graph):
 
     return best_subset, best_weight, tested_configs
 
-graphs_folder = "generated_graphs"
-file = "graph_n20_p50,0.gml"
+graphs_folder = "data/generated_graphs"
+file_to_inspect = "graph_n25_p75,0.gml"
 
-graph_path = os.path.join(graphs_folder, file)
+graph_path = os.path.join(graphs_folder, file_to_inspect)
 
 if os.path.exists(graph_path):
     print(f"--- Loading graph: {graph_path} ---")
@@ -69,7 +69,7 @@ if os.path.exists(graph_path):
     print(f" Execution Time: {end_time - start_time:.4f} seconds")
 
     print("\n--- Exhaustive search results ---")
-    print(f"GraFico: {file}")
+    print(f"GraFico: {file_to_inspect}")
     print(f"Tested configurations: {number_of_tests}")
     print(f"Best set: {optimal_subset}")
     print(f"Best weight: {optimal_weight}")
